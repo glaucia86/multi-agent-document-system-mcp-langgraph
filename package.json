@@ -1,0 +1,43 @@
+{
+  "name": "multi-agent-document-system-mcp-langgraph",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A multi agent document system using MCP Server and LangGraph",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm --parallel --stream run dev",
+    "build": "pnpm --recursive run build",
+    "type-check": "pnpm --recursive run type-check",
+    "clean": "pnpm --recursive run clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaucia86/multi-agent-document-system-mcp-langgraph.git"
+  },
+  "keywords": [
+    "multi-agent",
+    "MCP",
+    "LangGraph",
+    "document-system",
+    "AI",
+    "automation",
+    "workflow",
+    "typescript"
+  ],
+  "author": "Glaucia Lemos <Twitter: @glaucia_lemos86 | GitHub: @glaucia86>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glaucia86/multi-agent-document-system-mcp-langgraph/issues"
+  },
+  "homepage": "https://github.com/glaucia86/multi-agent-document-system-mcp-langgraph#readme",
+  "devDependencies": {
+    "@types/node": "^24.7.1",
+    "eslint": "^9.37.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  }
+}
