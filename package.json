@@ -36,6 +36,8 @@
   "homepage": "https://github.com/glaucia86/multi-agent-document-system-mcp-langgraph#readme",
   "devDependencies": {
     "@types/node": "^24.7.1",
+    "@typescript-eslint/eslint-plugin": "^8.46.0",
+    "@typescript-eslint/parser": "^8.46.0",
     "eslint": "^9.37.0",
     "prettier": "^3.6.2",
     "typescript": "^5.9.3"
