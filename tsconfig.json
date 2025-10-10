@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "references": [
+    { "path": "./apps/web" },
+    { "path": "./apps/mcp-server" },
+    { "path": "./packages/database" },
+    { "path": "./packages/agents" },
+    { "path": "./packages/shared" }
+  ]
+}
