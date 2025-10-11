@@ -1,0 +1,31 @@
+{
+  "name": "@repo/agents",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "agents",
+    "typescript",
+    "pnpm",
+    "monorepo"
+  ],
+  "author": "Glaucia Lemos <Twitter: @glaucia_lemos86 | GitHub: @glaucia86>",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/core": "^0.3.78",
+    "@langchain/langgraph": "^0.4.9",
+    "@repo/database": "workspace:*",
+    "@repo/shared": "workspace:*",
+    "openai": "^6.3.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.1",
+    "typescript": "^5.9.3"
+  }
+}
