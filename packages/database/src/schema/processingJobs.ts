@@ -10,7 +10,7 @@ import {
   varchar,
 } from 'drizzle-orm/pg-core';
 import { commonColums, executionStatusEnum, agentTypeEnum } from './types'; 
-import { documents } from './document';
+import { documents } from './documents';
 
 export const processingJobs = pgTable(
   'processing_jobs', {
